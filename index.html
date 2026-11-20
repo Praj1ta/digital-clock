@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digial Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center bg-slate-900">
+    <div class="flex flex-col gap-1">
+        <div class="bg-slate-800 p-10">
+            <div class="bg-slate-900 pl-10 pr-10 pt-3 pb-3 rounded">
+                <div class="flex gap-2 text-gray-400 text-lg">
+                    <p id="sun">SUN</p>
+                    <p id="mon">MON</p>
+                    <p id="tue">TUE</p>
+                    <p id="wed">WED</p>
+                    <p id="thu">THU</p>
+                    <p id="fri">FRI</p>
+                    <p id="sat">SAT</p>
+                </div>
+                <div class="text-center flex justify-center items-end">
+                    <p id="time" class="text-7xl text-white clock-font inline">00:00:00</p>
+                    <span id="ampm" class="text-orange-400 text-lg pb-2 pl-2">XX</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

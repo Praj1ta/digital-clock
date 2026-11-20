@@ -1,0 +1,12 @@
+body.dark-mode{
+    background-color: rgb(90, 88, 88);
+}
+
+@font-face {
+    font-family: digital-clock;
+    src: url('digital-7.ttf');
+}
+
+.clock-font{
+    font-family: digital-clock;
+}
